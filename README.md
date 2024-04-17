@@ -16,7 +16,7 @@ Example:
 
 int main(int, char **)
 {
-    hlp::enable_virtal_console();
+    hlp::enable_virtual_console();
     hlp::color_println("Hello world!", hlp::ccolor::red);
 
     return 0;
