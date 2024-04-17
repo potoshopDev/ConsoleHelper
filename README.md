@@ -6,13 +6,12 @@ _____________________________________________
 
 CMakeLists.txt
 
-add_subdirectory(ConsoleHelper)
-...
-include_directories(ConsoleHelper/include)
+
+add_subdirectory(ConsoleHelper)   ...   include_directories(ConsoleHelper/include)
 _____________________________________________
 
 Example:
-
+```cpp
 #include "helper.h"
 
 int main(int, char **)
