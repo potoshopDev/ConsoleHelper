@@ -28,7 +28,7 @@ namespace hlp
     std::string get_command_end();
     void color_print(std::string_view _str, ccolor _clr = ccolor::none);
     void color_println(std::string_view _str, ccolor _clr = ccolor::none);
-    void enable_virtal_console();
+    void enable_virtual_console();
     void move_cursor(int _dist);
     void hide_cursor(bool _visible);
 
@@ -93,7 +93,7 @@ namespace hlp
         std::println("");
     }
 
-    void enable_virtal_console()
+    void enable_virtual_console()
     {
         auto handle{GetStdHandle(STD_OUTPUT_HANDLE)};
         DWORD dwMode{0};
