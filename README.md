@@ -1,6 +1,6 @@
 git:
 
-git submodule add https://github.com...
+git submodule add https://github.com/potoshopDev/ConsoleHelper.git
 
 _____________________________________________
 
